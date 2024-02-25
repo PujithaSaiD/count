@@ -1,0 +1,9 @@
+n=int(input())
+m=int(input())
+c=0
+s1=str(n)
+s2=str(m)
+for i in s1:
+    if(i==s2):
+        c+=1
+print(c)
